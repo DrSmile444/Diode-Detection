@@ -13,7 +13,7 @@ var tran = ["германиевый транзистор, мал.мощ, низ.
 var result = "";
 var n = letter.length;
 
-var final = input(wordless);
+var final = input(wordless.toUpperCase());
 
 alert(final);
 //console.log(final);
