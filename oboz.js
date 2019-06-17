@@ -22,7 +22,7 @@ function main() {
         const resultProcessing = process(wordless || '');
 
         console.log(wordless + resultProcessing);
-        prompt(wordless, resultProcessing);
+        alert(wordless + resultProcessing);
     }
 }
 
