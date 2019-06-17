@@ -1,4 +1,3 @@
-let wordless = prompt('Введите диод или транзистор (64+ или 64-):');
 const letter = ['К', 'Г', 'І', 'А', 2, 1, 4, 3];
 const answer = ['кремниевый', 'германиевый', 'индиевый', 'арсенид-галиевый'];
 const type = ['Т', 'Ц', 'П', 'Н', 'Д', 'У', 'С', 'Л', 'О', 'Г', 'А', 'В', 'И'];
@@ -17,6 +16,8 @@ const Type = {
 main();
 
 function main() {
+    let wordless = prompt('Введите диод или транзистор (64+ или 64-):');
+
     if (wordless) {
         wordless = wordless.toUpperCase();
         const resultProcessing = process(wordless || '');
